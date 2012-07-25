@@ -22,6 +22,8 @@
     // Override point for customization after application launch.
 
     // Added
+    [NSThread sleepForTimeInterval:5.0];
+    
     self.tfrootViewController = [[tfRootViewController alloc] initWithNibName:@"tfRootViewController" bundle:nil];
     self.window.rootViewController = self.tfrootViewController;
     

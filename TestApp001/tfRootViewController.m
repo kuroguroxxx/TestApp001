@@ -6,7 +6,6 @@
 //  Copyright (c) 2012年 trifeed inc. All rights reserved.
 //
 
-#import <MobileCoreServices/UTCoreTypes.h>
 #import "tfRootViewController.h"
 #import "tfSecondViewController.h"
 
@@ -15,6 +14,7 @@
 @end
 
 @implementation tfRootViewController
+@synthesize viewMap;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -29,10 +29,12 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    viewMap = [[MKMapView alloc] init];
 }
 
 - (void)viewDidUnload
 {
+    [self setViewMap:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;

@@ -7,11 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MobileCoreServices/UTCoreTypes.h>
+#import <MapKit/MapKit.h>
 
 @interface tfRootViewController : UIViewController <UIImagePickerControllerDelegate, UINavigationControllerDelegate>
 
 - (IBAction)btnTapAction:(UIButton *)sender;
 - (IBAction)startCamera:(UIButton *)sender;
+
+@property (strong, nonatomic) IBOutlet MKMapView *viewMap;
 
 - (BOOL)openCamera:(UIViewController*) controller usingDelegate: (id <UINavigationControllerDelegate,UIImagePickerControllerDelegate>) delegate;
 - (void)imagePickerControllerDidCancel:(UIImagePickerController *)picker;
