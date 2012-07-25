@@ -15,6 +15,15 @@
 		F3B1BC1115BE82AD008DED6D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B1BC1015BE82AD008DED6D /* main.m */; };
 		F3B1BC1515BE82AD008DED6D /* tfAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B1BC1415BE82AD008DED6D /* tfAppDelegate.m */; };
 		F3B1BC1815BE82AD008DED6D /* TestApp001.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F3B1BC1615BE82AD008DED6D /* TestApp001.xcdatamodeld */; };
+		F3B1BC2115BE8323008DED6D /* tfRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B1BC1F15BE8323008DED6D /* tfRootViewController.m */; };
+		F3B1BC2215BE8323008DED6D /* tfRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3B1BC2015BE8323008DED6D /* tfRootViewController.xib */; };
+		F3B1BC2415BE8A6E008DED6D /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B1BC2315BE8A6E008DED6D /* icon.png */; };
+		F3B1BC2715BE8B72008DED6D /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B1BC2615BE8B72008DED6D /* icon@2x.png */; };
+		F3B1BC2A15BE8D08008DED6D /* default.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B1BC2815BE8D08008DED6D /* default.png */; };
+		F3B1BC2B15BE8D08008DED6D /* default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B1BC2915BE8D08008DED6D /* default@2x.png */; };
+		F3B1BC2F15BE8F58008DED6D /* tfSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B1BC2D15BE8F58008DED6D /* tfSecondViewController.m */; };
+		F3B1BC3015BE8F58008DED6D /* tfSecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3B1BC2E15BE8F58008DED6D /* tfSecondViewController.xib */; };
+		F3B1BC3615BEB4F8008DED6D /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3B1BC3515BEB4F8008DED6D /* MobileCoreServices.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,13 +32,25 @@
 		F3B1BC0415BE82AD008DED6D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F3B1BC0615BE82AD008DED6D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		F3B1BC0815BE82AD008DED6D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		F3B1BC0C15BE82AD008DED6D /* TestApp001-Info.plist */ = {isa = PBXFileReference; path = "TestApp001-Info.plist"; sourceTree = "<group>"; };
+		F3B1BC0C15BE82AD008DED6D /* TestApp001-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestApp001-Info.plist"; sourceTree = "<group>"; };
 		F3B1BC0E15BE82AD008DED6D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F3B1BC1015BE82AD008DED6D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F3B1BC1215BE82AD008DED6D /* TestApp001-Prefix.pch */ = {isa = PBXFileReference; path = "TestApp001-Prefix.pch"; sourceTree = "<group>"; };
-		F3B1BC1315BE82AD008DED6D /* tfAppDelegate.h */ = {isa = PBXFileReference; path = tfAppDelegate.h; sourceTree = "<group>"; };
+		F3B1BC1215BE82AD008DED6D /* TestApp001-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestApp001-Prefix.pch"; sourceTree = "<group>"; };
+		F3B1BC1315BE82AD008DED6D /* tfAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tfAppDelegate.h; sourceTree = "<group>"; };
 		F3B1BC1415BE82AD008DED6D /* tfAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tfAppDelegate.m; sourceTree = "<group>"; };
 		F3B1BC1715BE82AD008DED6D /* TestApp001.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TestApp001.xcdatamodel; sourceTree = "<group>"; };
+		F3B1BC1E15BE8323008DED6D /* tfRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tfRootViewController.h; sourceTree = "<group>"; };
+		F3B1BC1F15BE8323008DED6D /* tfRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tfRootViewController.m; sourceTree = "<group>"; };
+		F3B1BC2015BE8323008DED6D /* tfRootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = tfRootViewController.xib; sourceTree = "<group>"; };
+		F3B1BC2315BE8A6E008DED6D /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../icon.png; sourceTree = "<group>"; };
+		F3B1BC2615BE8B72008DED6D /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon@2x.png"; path = "../icon@2x.png"; sourceTree = "<group>"; };
+		F3B1BC2815BE8D08008DED6D /* default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = default.png; path = ../default.png; sourceTree = "<group>"; };
+		F3B1BC2915BE8D08008DED6D /* default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "default@2x.png"; path = "../default@2x.png"; sourceTree = "<group>"; };
+		F3B1BC2C15BE8F58008DED6D /* tfSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tfSecondViewController.h; sourceTree = "<group>"; };
+		F3B1BC2D15BE8F58008DED6D /* tfSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tfSecondViewController.m; sourceTree = "<group>"; };
+		F3B1BC2E15BE8F58008DED6D /* tfSecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = tfSecondViewController.xib; sourceTree = "<group>"; };
+		F3B1BC3315BEB4B3008DED6D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		F3B1BC3515BEB4F8008DED6D /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3B1BC3615BEB4F8008DED6D /* MobileCoreServices.framework in Frameworks */,
 				F3B1BC0315BE82AD008DED6D /* UIKit.framework in Frameworks */,
 				F3B1BC0515BE82AD008DED6D /* Foundation.framework in Frameworks */,
 				F3B1BC0715BE82AD008DED6D /* CoreGraphics.framework in Frameworks */,
@@ -67,6 +89,8 @@
 		F3B1BC0115BE82AD008DED6D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F3B1BC3515BEB4F8008DED6D /* MobileCoreServices.framework */,
+				F3B1BC3315BEB4B3008DED6D /* AVFoundation.framework */,
 				F3B1BC0215BE82AD008DED6D /* UIKit.framework */,
 				F3B1BC0415BE82AD008DED6D /* Foundation.framework */,
 				F3B1BC0615BE82AD008DED6D /* CoreGraphics.framework */,
@@ -78,6 +102,13 @@
 		F3B1BC0A15BE82AD008DED6D /* TestApp001 */ = {
 			isa = PBXGroup;
 			children = (
+				F3B1BC2C15BE8F58008DED6D /* tfSecondViewController.h */,
+				F3B1BC2D15BE8F58008DED6D /* tfSecondViewController.m */,
+				F3B1BC2E15BE8F58008DED6D /* tfSecondViewController.xib */,
+				F3B1BC2515BE8A7D008DED6D /* Images */,
+				F3B1BC1E15BE8323008DED6D /* tfRootViewController.h */,
+				F3B1BC1F15BE8323008DED6D /* tfRootViewController.m */,
+				F3B1BC2015BE8323008DED6D /* tfRootViewController.xib */,
 				F3B1BC1315BE82AD008DED6D /* tfAppDelegate.h */,
 				F3B1BC1415BE82AD008DED6D /* tfAppDelegate.m */,
 				F3B1BC1615BE82AD008DED6D /* TestApp001.xcdatamodeld */,
@@ -95,6 +126,17 @@
 				F3B1BC1215BE82AD008DED6D /* TestApp001-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F3B1BC2515BE8A7D008DED6D /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				F3B1BC2815BE8D08008DED6D /* default.png */,
+				F3B1BC2915BE8D08008DED6D /* default@2x.png */,
+				F3B1BC2615BE8B72008DED6D /* icon@2x.png */,
+				F3B1BC2315BE8A6E008DED6D /* icon.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +192,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3B1BC0F15BE82AD008DED6D /* InfoPlist.strings in Resources */,
+				F3B1BC2215BE8323008DED6D /* tfRootViewController.xib in Resources */,
+				F3B1BC2415BE8A6E008DED6D /* icon.png in Resources */,
+				F3B1BC2715BE8B72008DED6D /* icon@2x.png in Resources */,
+				F3B1BC2A15BE8D08008DED6D /* default.png in Resources */,
+				F3B1BC2B15BE8D08008DED6D /* default@2x.png in Resources */,
+				F3B1BC3015BE8F58008DED6D /* tfSecondViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,6 +211,8 @@
 				F3B1BC1115BE82AD008DED6D /* main.m in Sources */,
 				F3B1BC1515BE82AD008DED6D /* tfAppDelegate.m in Sources */,
 				F3B1BC1815BE82AD008DED6D /* TestApp001.xcdatamodeld in Sources */,
+				F3B1BC2115BE8323008DED6D /* tfRootViewController.m in Sources */,
+				F3B1BC2F15BE8F58008DED6D /* tfSecondViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +316,7 @@
 				F3B1BC1D15BE82AD008DED6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
