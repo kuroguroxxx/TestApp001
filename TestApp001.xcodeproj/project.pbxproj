@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F3250C3315BFBE5300DF1541 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3250C3215BFBE5300DF1541 /* MapKit.framework */; };
 		F3B1BC0315BE82AD008DED6D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3B1BC0215BE82AD008DED6D /* UIKit.framework */; };
 		F3B1BC0515BE82AD008DED6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3B1BC0415BE82AD008DED6D /* Foundation.framework */; };
 		F3B1BC0715BE82AD008DED6D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3B1BC0615BE82AD008DED6D /* CoreGraphics.framework */; };
@@ -27,6 +28,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F3250C3215BFBE5300DF1541 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		F3B1BBFE15BE82AD008DED6D /* TestApp001.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestApp001.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3B1BC0215BE82AD008DED6D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F3B1BC0415BE82AD008DED6D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -58,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3250C3315BFBE5300DF1541 /* MapKit.framework in Frameworks */,
 				F3B1BC3615BEB4F8008DED6D /* MobileCoreServices.framework in Frameworks */,
 				F3B1BC0315BE82AD008DED6D /* UIKit.framework in Frameworks */,
 				F3B1BC0515BE82AD008DED6D /* Foundation.framework in Frameworks */,
@@ -89,6 +92,7 @@
 		F3B1BC0115BE82AD008DED6D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F3250C3215BFBE5300DF1541 /* MapKit.framework */,
 				F3B1BC3515BEB4F8008DED6D /* MobileCoreServices.framework */,
 				F3B1BC3315BEB4B3008DED6D /* AVFoundation.framework */,
 				F3B1BC0215BE82AD008DED6D /* UIKit.framework */,
