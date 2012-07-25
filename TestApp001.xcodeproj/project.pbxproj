@@ -8,9 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		F3250C3315BFBE5300DF1541 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3250C3215BFBE5300DF1541 /* MapKit.framework */; };
+		F3250C4315BFE99200DF1541 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3250C4215BFE99100DF1541 /* AssetsLibrary.framework */; };
+		F3250C4615BFF24000DF1541 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3250C4515BFF24000DF1541 /* CoreLocation.framework */; };
+		F3250C4C15C0054D00DF1541 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3250C4B15C0054D00DF1541 /* ImageIO.framework */; };
 		F3B1BC0315BE82AD008DED6D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3B1BC0215BE82AD008DED6D /* UIKit.framework */; };
 		F3B1BC0515BE82AD008DED6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3B1BC0415BE82AD008DED6D /* Foundation.framework */; };
-		F3B1BC0715BE82AD008DED6D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3B1BC0615BE82AD008DED6D /* CoreGraphics.framework */; };
 		F3B1BC0915BE82AD008DED6D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3B1BC0815BE82AD008DED6D /* CoreData.framework */; };
 		F3B1BC0F15BE82AD008DED6D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F3B1BC0D15BE82AD008DED6D /* InfoPlist.strings */; };
 		F3B1BC1115BE82AD008DED6D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B1BC1015BE82AD008DED6D /* main.m */; };
@@ -29,6 +31,11 @@
 
 /* Begin PBXFileReference section */
 		F3250C3215BFBE5300DF1541 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		F3250C4215BFE99100DF1541 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		F3250C4515BFF24000DF1541 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		F3250C4715C003A400DF1541 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		F3250C4915C0045800DF1541 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F3250C4B15C0054D00DF1541 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
 		F3B1BBFE15BE82AD008DED6D /* TestApp001.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestApp001.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3B1BC0215BE82AD008DED6D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F3B1BC0415BE82AD008DED6D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -60,11 +67,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3250C4C15C0054D00DF1541 /* ImageIO.framework in Frameworks */,
+				F3250C4615BFF24000DF1541 /* CoreLocation.framework in Frameworks */,
+				F3250C4315BFE99200DF1541 /* AssetsLibrary.framework in Frameworks */,
 				F3250C3315BFBE5300DF1541 /* MapKit.framework in Frameworks */,
 				F3B1BC3615BEB4F8008DED6D /* MobileCoreServices.framework in Frameworks */,
 				F3B1BC0315BE82AD008DED6D /* UIKit.framework in Frameworks */,
 				F3B1BC0515BE82AD008DED6D /* Foundation.framework in Frameworks */,
-				F3B1BC0715BE82AD008DED6D /* CoreGraphics.framework in Frameworks */,
 				F3B1BC0915BE82AD008DED6D /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -75,6 +84,11 @@
 		F3B1BBF315BE82AD008DED6D = {
 			isa = PBXGroup;
 			children = (
+				F3250C4B15C0054D00DF1541 /* ImageIO.framework */,
+				F3250C4915C0045800DF1541 /* QuartzCore.framework */,
+				F3250C4715C003A400DF1541 /* CoreImage.framework */,
+				F3250C4515BFF24000DF1541 /* CoreLocation.framework */,
+				F3250C4215BFE99100DF1541 /* AssetsLibrary.framework */,
 				F3B1BC0A15BE82AD008DED6D /* TestApp001 */,
 				F3B1BC0115BE82AD008DED6D /* Frameworks */,
 				F3B1BBFF15BE82AD008DED6D /* Products */,
