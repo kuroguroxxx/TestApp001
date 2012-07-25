@@ -9,8 +9,15 @@
 #import <UIKit/UIKit.h>
 #import <MobileCoreServices/UTCoreTypes.h>
 #import <MapKit/MapKit.h>
+#import <CoreLocation/CoreLocation.h>
+#import <AssetsLibrary/AssetsLibrary.h>
+#import <ImageIO/ImageIO.h>
+#import <ImageIO/CGImageSource.h>
 
-@interface tfRootViewController : UIViewController <UIImagePickerControllerDelegate, UINavigationControllerDelegate>
+@interface tfRootViewController : UIViewController <UIImagePickerControllerDelegate, UINavigationControllerDelegate, CLLocationManagerDelegate>
+{
+    CLLocationManager *locationManager;
+}
 
 - (IBAction)btnTapAction:(UIButton *)sender;
 - (IBAction)startCamera:(UIButton *)sender;
