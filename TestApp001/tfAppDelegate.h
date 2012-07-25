@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
+// Added
+#import "tfRootViewController.h"
+
 @interface tfAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
@@ -15,6 +18,9 @@
 @property (readonly, strong, nonatomic) NSManagedObjectContext *managedObjectContext;
 @property (readonly, strong, nonatomic) NSManagedObjectModel *managedObjectModel;
 @property (readonly, strong, nonatomic) NSPersistentStoreCoordinator *persistentStoreCoordinator;
+
+// Added
+@property (nonatomic, strong) tfRootViewController *tfrootViewController;
 
 - (void)saveContext;
 - (NSURL *)applicationDocumentsDirectory;
